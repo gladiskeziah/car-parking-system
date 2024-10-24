@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Parking Management System</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Car Parking Management System</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="form-group">
+            <h2>Book a Slot</h2>
+            <input type="text" id="car_id" placeholder="Enter Car ID">
+            <input type="number" id="parking_time" placeholder="Enter estimated parking time (in hours)">
+            <button onclick="bookSlot()">Book Slot</button>
+        </div>
+        <div class="form-group">
+            <h2>Release a Slot</h2>
+            <button onclick="releaseSlot()">Release Slot</button>
+        </div>
+        <div class="form-group">
+            <h2>Show Parking Lot Status</h2>
+            <button onclick="showStatus()">Show Status</button>
+        </div>
+        <div class="status" id="status"></div>
+    </div>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

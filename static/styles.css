@@ -1,0 +1,67 @@
+body {
+    background-image: url('/static/rr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Ensure content doesn't overlap the background */
+.content {
+    padding: 20px;
+    background-color: rgba(233, 226, 226, 0.8); /* Slight white transparency */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgb(255, 254, 254);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ddd 3px solid;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.form-group {
+    color: #ddd;
+    margin: 20px 0;
+}
+.form-group input {
+   
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-group button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2f2c2c;
+    color: #ebeb13;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.form-group button:hover {
+    background-color: #555;
+}
+.status {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
